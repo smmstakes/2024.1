@@ -1,0 +1,93 @@
+	Fundamentos SCRUM
+  ->Valores e Princípios Ágeis 
+- Valores Ágeis
+  - Individuis e interações
+  - Software em funcionamento
+  - Colaboração com o cliente
+  - Responder a mudanças
+  
+- Princípios Ágeis
+  - Satisfazer o cliente através da entrega contínua e adiantada
+  - Mudanças nos requisitos são bem-vindas, mesmo tardiamente
+  - Entrega frequente de software funcionando, na menor escala de tempo possivel
+  - Pessoas de negócios e desenvolvedores devem trabalhar diariamente em conjunto por todo o projeto
+  - Construir projetos em torno de indivíduos motivados
+  - Conversa face a face
+  - Desenvolvimento sustentável, ou seja, toda a equipe deve ser capaz de manter um ritmo constante
+  - Excelência técnica e bom design
+  - Simplicidade
+  - Equipes auto-organizáveis
+  - Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz
+  
+   -> SCRUM
+- Definição
+  - Cada elemento do SCRUM serve a um propósito específico que é essencial para o valor geral e os resultados obtidos com SCRUM.
+  - Framework que ajuda a gerar valor por meio de soluções adaptativas para problemas complexos
+  - As regas do Duia do SCRUM orientam as pessoas, seus relacionamentos e interações (PROPOSITALMENTE INCOMPLETO)
+  - Baseado no empirismo e Lean Thinking
+  - Iterativo e Incremental
+  
+  - Requer um Scrum Master para promover um ambiente onde:
+1. Um Product Owner ordena o trabalho para um problema complexo em
+um Product Backlog.
+2. O Scrum Team transforma uma seleção do trabalho em um incremento
+de valor durante um Sprint.
+3. O Scrum Team e seus stakeholders inspecionam os resultados e se
+ajustam para o próximo Sprint
+
+  - Eventos para inspeção e adaptação
+    - Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective
+	    - Transparência, Inspeção e Adaptação
+		
+- Pilares
+    - Transparência:
+	    - Permite a inspeção
+		- Trabalho deve ser visívei tanto para quem executa o trabalho quanto para quem recebe
+	
+	- Inspeção:
+		- Habilita a adaptação
+		- Artefatos e o progresso em direção às ,etas devem ser inspecionados com frequencia e diligencia para detectar variações
+		- Inspeção sem adaptação é inutil
+		
+	- Adaptação:
+		- O ajuste deve ser feito o mais rapido possível para minimizar os desvios
+		- SCRUM Team deve se adaptar no momento em que aprende algo novo na inspeção
+
+- SCRUM Team:
+    - Time de 10 pessoas ou menos (SCRUM Master, Product Owner e Developers)
+	- Multifuncionais e autogerenciáveis
+	- Responsável por todas as atividades relacionadas ao produto
+
+- Developers:
+	- Cria um plano para a Sprint (Sprint Backlog)
+	- Introduz gradualmente qualidade aderindo a uma Definition of Done
+	- Adaptar seu plano em direção à meta da Sprint
+	
+- Product Owner:
+	- Maximiza o valor do produto resultante
+	- Gerencia eficazmente o Product Backlog
+	    - Desevolver e comunicar a meta do produto
+		- Criar e comunica os itens do Product Backlog
+		- Deve ser transparente, visível e compreensível
+		
+- SCRUM Master:
+	- Responsável por estabelecer o SCRUM conforme o Guia do SCRUM
+	- Líderes que servem ao Scrum Team e à organização como um todo
+		
+		
+	eXtreme Programming
+- O que é? 
+	- Estilo de desnvolvimento com foco na aplicação de técnicas de programação, comunicação e trabalho em equipe, respeito, feedback, simplicidade e coragem.
+	- Ciclos de desnvolvimento curto, com feedbacks precoces, concretos e contínuos
+	- Planejamento incremental
+	- Testes automatizados
+	- Design evolutivo
+	
+	- Cliente decide o escopo, a prioridade, a composição das releases, datas de liberação
+	- Desevolvedores decidem o tempo estimado, as consequências técnicas, o processo e o cronograma
+	
+	- Divididos em camadas:
+		- Mais interna é a programação
+		- Intermediária é um conjunto de práticas orietadas para a equipe
+		- Externa define o processo de interação da equipe com o cliente
+		
