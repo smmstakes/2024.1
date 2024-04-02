@@ -1,0 +1,95 @@
+.	MDS - Ciclos de Vida
+
+   -> Abordagens de Desenvolvimento
+- Dirigidas por Plano:
+  - Grande formalidade
+  - Cascata ou baseado em especificação: lento
+  - Planejamento no inicio do projeto
+  - Identificam e/ou especificam completamente os requisitos e depois
+projetam, constroem e testam.
+  - Caso haja mudanças ou problemas o projeto deve ser retrabalhado e testado
+  - Útil para softwares/serviços ue precisão de uma análise completa
+
+
+- Ágeis:
+  - Série de incrementos
+  - Voltado a negócios, ambientes instáveis, ou seja, para processos de desenvolvimentos e entregas rápidos
+  - Especificação, projeto e implementação são intercalados
+  - Especificação não detalhada e documentação minimizada
+  - Documento de requisitos possui as caracteristicas mais importantes
+  - Documentação com comunicação informal
+
+  - Usuarios Finais:
+  - Stakeholders:
+
+
+   -> Ciclo de Vida de Software
+- O que é:
+  -  Processo de criação do software até a sua finalização.
+  - Passa desde a fase de definição dos seus requisitos, codificação, manutenção, até a sua descontinuidade.
+
+- Ciclo de Vida Preditivo:
+  - Tradicional
+  - Planejamento antecipado e depois executado em um processo sequencial (cascata)
+  - Permite segmentação do trabalho em sequencias de agrupamentos previsiveis
+
+- Ciclo de Vida Interativo:
+  - Feedback sobre o trabalho parcialmente concluído ou inacabado para melhora e modificação
+
+
+- Ciclo de Vida Incremental:
+  - Fornece produtos acabados que o cliente ja pode utilizar
+
+- Ciclo de Vida Ágil
+  - Utiliza as pectos iterativos e incrementais para refinar itens de trabalho e entregas finalizadas, com frequencia
+  - Feedback antecipado e fornece visibilidade, confiança e controle do produto
+
+- Ciclo de Vida Híbrido:
+  - Combinação de diferentes ciclos de vida
+  - Não deve ser realizado entre filosofias, práticas, técnicas e/ou conceitos que podem ser conflitantes
+
+
+   -> Processos de Desenvolvimento
+- Cascata:
+  - Requisitos fixos
+  - Cada parte é realizada por completo, para assim seguir para a proxima etapa
+
+- Spiral:
+  - Processo Iterativo, que executa vários ciclos até a disponibilização final do produto
+  - Fortemente pautado na análise de risco (inicio de cada ciclo)
+  - Requisitos fixos, especificados ao longo dos ciclos
+
+- RAD:
+  - R6apid Application Development
+  - Abordagem ágil, centrada no usuario e design do produto
+  - Requisitos variáveis
+
+- UP:
+  - Processo Unificado
+  - Esforço inicial de planejamento e identificação de requisitos
+  - Iterativo e  Incremental
+  - Busca identificar todos os requisitos no inicio
+
+- OpenUp:
+  - UP enxuto com abordagens iterativas e incrementais em um ciclo de vida estruturado
+  - Filosofia pragmatica e agil, concentrado na natureza colaborativa do desenvolvimento
+
+- SCRUM:
+  - Framework que na organização de projetos para soluções adaptativas
+  - Requisitos Variaveis
+  - Atua de maneira evolutiva, com refinamentos sucessivos de requisitos e soluções
+
+- XP:
+  - Extreme Programming
+  - Equipes pequenas ou médias, para softwares de alta qualidade com orçamentos e cronogramas previsiveis
+  - Mais utilizado na industria
+  - Requisitos variaveis
+
+- SAFe:
+  -  É uma base de conhecimento de princípios, práticas e competências
+comprovadas e integradas para obter agilidade nos negócios usando Lean,
+Agile e DevOps.
+  -  Utiliza SAFe SCRUM
+  -  Requisitos Variaveis
+
+ 

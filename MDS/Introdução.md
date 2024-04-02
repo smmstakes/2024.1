@@ -1,9 +1,9 @@
 ###### Aula 02 - 20.03
-**Próxima Aula:** [[Ciclos de Vida]] (Aula 03 - 25.03)
+**Próxima Aula:** [[Ciclos de Vida pt.1]] (Aula 03 - 25.03)
 # Projeto
 Empreendimento único realizado por atividades controladas e coordenadas com datas especificas para cada etapa para que alcance um requisito pré-estabelecido. 
 
-> Podem tem vários [[Ciclos de Vida]] (Aula 03 - 25.03) diferentes
+> Podem tem vários [[Ciclos de Vida pt.1]] (Aula 03 - 25.03) diferentes
 
 ## Relacionamento entre Conceitos
 ```mermaid
