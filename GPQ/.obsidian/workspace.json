@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fb73eed10ffbfa3f",
+        "id": "bd2e6279a89f1769",
         "type": "tabs",
         "children": [
           {
-            "id": "5282b9f4f62f9620",
+            "id": "4b7288b31bbfc4e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introdução.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27eb1e8cc9ab5e7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modelo Referencial MRSP.md",
+                "file": "MRSP - Fornecimento.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelo Referencial MRSP.md",
+                "file": "MRSP - Fornecimento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelo Referencial MRSP.md",
+                "file": "MRSP - Fornecimento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelo Referencial MRSP.md"
+                "file": "MRSP - Fornecimento.md"
               }
             }
           }
@@ -159,11 +146,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "27eb1e8cc9ab5e7e",
+  "active": "4b7288b31bbfc4e6",
   "lastOpenFiles": [
-    "Sem título.md",
-    "Modelo Referencial MRSP.md",
     "Introdução.md",
+    "MRSP - Entrega.md",
+    "MRSP - Design e Gerenciamento Organizacional.md",
+    "MRSP - Produção.md",
+    "MRSP - Fornecimento.md",
+    "Sem título.md",
     "Sem título 1.md"
   ]
 }

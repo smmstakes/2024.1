@@ -1,5 +1,5 @@
 ###### Aula 02 - 21.03
-**Próxima aula:** [[Modelo Referencial MRSP]](Aula 03 - 26.03)
+**Próxima aula:** [[MRSP - Fornecimento]] (Aula 03 - 26.03)
 
 ---
 # Economia de Mercado
@@ -22,3 +22,4 @@ D --TECNOLOGIA--> E[Competição:
 
 ---
 **tags:** #tecnologia #economiaDeMercado
+**Home:** [[#Aula 02 - 21.03]]

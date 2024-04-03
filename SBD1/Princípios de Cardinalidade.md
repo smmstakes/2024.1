@@ -1,21 +1,31 @@
 ###### Aula 02 - 26.03
 **Aula Anterior:** [[Introdução]] (Aula 01 - 21.03)
-**Próxima Aula:** [[]] (Aula 03 - 28.03)
+**Próxima Aula:** [[]] (Aula 03 - 04.04)
 
 --- 
 # Princípios de Cardinalidade
 
 ## Tipos de Cardinalidade
-cardinalidade **minima**:cardinalidade **máxima**
-
+Define a quantidade de relações que cada entidade pode ter com outra entidade. É representado como:
+- cardinalidade **mínima** : cardinalidade **máxima**
 >**NOTA:** a direção é invertida, como em X.
 
 ### 1:1
+É quando uma *entidade A* está associada a **uma e somente uma** outra *entidade B*.
+
+```mermaid
+graph LR
+A[Marido] -- 1:1 --> B[Esposa]
+```
+
 ### 1:n
+É quando uma *entidade A* está associada a **pelo menos uma** outra *entidade*.
 
-### n:n
+```mermaid
+graph LR
+A[Faculdade] -- 1:n --> B[Alunos]
+```
 
->**NOTA:** a *Herança* nesta matéria apenas herda os atributos
-
-## Tipo de Entidade
-### Forte
+---
+**tags:** #cardinalidade #herança 
+**Home:** [[#Aula 02 - 26.03]]

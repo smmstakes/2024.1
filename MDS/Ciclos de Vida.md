@@ -1,6 +1,6 @@
 ###### Aula 03 - 25.03
 **Aula Anterior:** [[Introdução]] (Aula 02 - 20.03)
-**Próxima Aula:** [[Scrum e XP]] (Aula 05 - 01.04)
+**Próxima Aula:** [[Scrum]] (Aula 05 - 01.04)
 
 ---
 # Ciclos de Vida
@@ -83,3 +83,4 @@ Seu maior objetivo é **entender profundamente os requisitos** do usuário, afim
 
 ---
 **tags:** #agil #preditivo #planos #incremental #waterfall #timebox #sprint #prototipos
+**Home:** [[#Aula 03 - 25.03]]

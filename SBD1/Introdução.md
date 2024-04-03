@@ -1,4 +1,7 @@
-**Próxima aula:** [[]] (Aula 02 - 26.03)
+###### Aula 01 - 21.03
+**Próxima aula:** [[Princípios de Cardinalidade]] (Aula 02 - 26.03)
+
+---
 # SGBD
 “Um Banco de Dados é um objeto mais complexo, é uma coleção de dados armazenados e inter-relacionados, que atende às necessidades de vários usuários dentro de uma ou mais organizações, ou seja, coleções inter-relacionadas de muitos tipos diferentes de tabelas.” (TOREY et al,p.2,2007)”
 --
@@ -21,19 +24,11 @@
 
 ## Modelo Conceitual
 Geralmente se utiliza do **Modelo Entidade Relacionamento** para descrever os requisitos que se deseja no banco, com um grande nível de abstração.
-Dessa forma o modelo conceitual irá descrever a realidade do ambiente real e o problema, sendo uma visão geral dos principais dados e suas relações, independente das restrições de implementação (JUKIC, N.; VRBSKY S.; NESTOROV, S, 2013).
 
 - Define o **escopo** do problema
 - Identifica as principais entidades e suas relações
 - Modelagem **UML**, aqui vemos os [[Princípios de Cardinalidade]]
-
-### Passos
-1. Identificar **entidades**
-2. Identificar os **atributos** de cada entidade
-3. Identificar os **relacionamentos**
-4. Identificar a **cardinalidade dos relacionamentos**
-5. Ajustar relacionamentos, entidades e atributos
-6. Gerar as **tabelas**
+- Mais sobre [[Modelo Conceitual]] (**EXTRA**)
 
 ## Modelo Lógico
 Irá descrever quais estruturas devem contem no Banco de Dados, desconsiderando características específicas do SGBD, ele possui três abordagens possíveis:
@@ -54,8 +49,11 @@ Irá descrever quais estruturas devem contem no Banco de Dados, desconsiderando 
 - **Esquemas:** conjunto de *atributos*
 - **Tuplas:** linhas da tabela
 - **Instância:** conjunto de tuplas
+- **Chave Primária:** Identificador/atributo *único* 
+- **Chave Estrangeira:** *chave primária* de uma outra entidade
 
-**Ex:** Produto(==Cod_Produto==, Valor)
+**Ex:** Produto(*Cod_Produto*, Nome, ##Cod_Fornecedor)
 
 ---
 **tags:** #SGBD #Flask #CRUD #UML #SQL #NoSQL
+**Home:** [[#Aula 01 - 21.03]]
