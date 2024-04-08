@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b7288b31bbfc4e6",
+            "id": "1f60828d6f2aad56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MRSP - Fornecimento.md",
+                "file": "MRSP - Inovação e Melhoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MRSP - Fornecimento.md",
+                "file": "MRSP - Inovação e Melhoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MRSP - Fornecimento.md",
+                "file": "MRSP - Inovação e Melhoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MRSP - Fornecimento.md"
+                "file": "MRSP - Inovação e Melhoria.md"
               }
             }
           }
@@ -146,13 +146,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4b7288b31bbfc4e6",
+  "active": "1f60828d6f2aad56",
   "lastOpenFiles": [
-    "Introdução.md",
-    "MRSP - Entrega.md",
+    "Engenharia de Produto.md",
+    "MRSP - Inovação e Melhoria.md",
     "MRSP - Design e Gerenciamento Organizacional.md",
-    "MRSP - Produção.md",
+    "MRSP - Entrega.md",
+    "Introdução.md",
     "MRSP - Fornecimento.md",
+    "MRSP - Produção.md",
     "Sem título.md",
     "Sem título 1.md"
   ]
