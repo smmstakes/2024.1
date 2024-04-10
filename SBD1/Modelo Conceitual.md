@@ -23,7 +23,8 @@ Dessa forma o modelo conceitual irá descrever a realidade do ambiente real e o 
 ### Tipos de Entidades
 1. **Forte:** existem por si só
 2. **Fracas:** precisam de outra entidade para existir e **não** possuem *chave primária*. Representado por **retângulo com bordas duplas.**
-	1. **Exemplo:** Suponha que um funcionário é demitido da empresa. Nesse caso, o funcionário e todos os seus dependentes serão removidos do banco de dados. Portanto, a entidade Dependente é uma entidade fraca porque ela depende da entidade Funcionário para existir.
+	1. Importa as chaves primarias das entidades no qual esta relacionada
+	2. **Exemplo:** Suponha que um funcionário é demitido da empresa. Nesse caso, o funcionário e todos os seus dependentes serão removidos do banco de dados. Portanto, a entidade Dependente é uma entidade fraca porque ela depende da entidade Funcionário para existir.
 
 >**NOTA:** a *Herança* nesta matéria apenas herda os atributos
 

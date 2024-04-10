@@ -26,6 +26,23 @@ graph LR
 A[Faculdade] -- 1:n --> B[Alunos]
 ```
 
+### Relacionamentos
+#### 1:1 
+Prefere-se que separe em 2 tabelas, para mais tarde na **normalização**
+
+#### 1:n
+A chave primaria do "1" vai para o "n"
+
+#### n:n
+Relacionamento vira uma nova tabela com chaves primarias das duas entidades
+
+#### 1:n (Entidade Fraca)
+Pega as chaves primarias da entidade forte e aloca na tabela da entidade fraca
+
+### Mapeamento de Auto-relacionamento
+##### 1:1 e 1:n
+A chave primaria vira uma chave estrangeira da propria entidade
+
 ---
 **tags:** #cardinalidade #herança 
 **Home:** [[#Aula 02 - 26.03]]
