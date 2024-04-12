@@ -36,12 +36,26 @@ Irá descrever quais estruturas devem contem no Banco de Dados, desconsiderando 
 2. **Modelo Hierárquico:** organizado em uma *árvore*, onde cada registro tem um *único pai* e seus *irmãos* são organizados em uma ordem específica.
 3. **Modelo de Rede:** cada conjunto consiste em um registro proprietário, e um ou mais registros de membro. Um registro pode ser um membro, em vários conjuntos, permitindo que esse modelo transmita relações complexas (HEUSER, 2004).
 
+É importante definir alguns [[Princípios de Relacionamentos]]
+
+> **NOTA:** Pode ser representado como uma tabela para facilitar a normalização
+
 ## Modelo Físico
 É o modelo que irá descrever as estruturas físicas do banco, assim podendo realizar a implementação do mesmo, que envolve *hardware* e *softwares* que serão utilizados. Suas estruturas são:
 - Tamanho dos campos
 - Tipos de campos
 - Terminologias
 - Eficiência dos recursos computacionais
+
+```mysql
+CREATE TABLE clientes (
+  id_cliente INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  data_nascimento DATE NOT NULL,
+  cidade VARCHAR(255) NOT NULL
+);
+```
 
 ---
 ### Conceitos da Modelagem (Glauco)
