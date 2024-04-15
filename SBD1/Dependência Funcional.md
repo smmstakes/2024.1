@@ -1,6 +1,6 @@
 ###### Aula 04 - 09.04
 **Aula Anterior:** [[Princípios de Relacionamentos]] (Aula 03 - 04.04)
-**Próxima Aula:** [[]] (Aula 05 - 16.04)
+**Próxima Aula:** [[Normalização]] (Aula 05 - 16.04)
 
 ---
 # Dependência Funcional
@@ -57,6 +57,7 @@ então,
 {CPF, Nome} --> Endereço
 
 ### Regra da Pseudo-Transitividade
+
 ```
 A --> B e BC --> D
 então,
@@ -70,8 +71,17 @@ então,
 
 ## Tipos de Dependência
 ### Dependência Funcional Total
+Se uma tabela tiver uma chave primária composta, dizemos que esta tabela tem **dependência funcional forte** se todas as colunas dessa tabela depender funcionalmente de **todos** os *atributos da chave primária composta*.
 
+### Dependência Funcional Parcial
+Se uma tabela tiver uma chave primária composta, dizemos que esta tabela tem **dependência funcional parcial** se existir **alguma coluna** dessa tabela que dependa funcionalmente de *apenas parte da chave primária*.
 
+###### Exemplo
+
+![[Dependencias_funcionais.png]]
+
+- As setas **verdes** representam as *Dependências Funcionais Totais* e as **vermelhas** as *Dependências Funcionais Parciais*.
+	- Essas dependências mistas podem gerar problemas na **inserção** (duplicidade de informações e desperdício) e **deleção** (caso haja apenas uma ocorrência de algum campo pode ser deletado totalmente do banco).
 
 ---
 **tags:** #dependencia_funcional

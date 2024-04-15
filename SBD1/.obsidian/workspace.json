@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dependência Funcional.md",
+                "file": "Normalização.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dependência Funcional.md",
+                "file": "Normalização.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dependência Funcional.md",
+                "file": "Normalização.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dependência Funcional.md"
+                "file": "Normalização.md"
               }
             }
           }
@@ -147,12 +147,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "ceb539a8419e8c0a",
+  "active": "42ee74fa455fffff",
   "lastOpenFiles": [
-    "Princípios de Relacionamentos.md",
-    "Introdução.md",
+    "Imagens/Normalização/1FN_tabela_exemplo.png",
+    "Imagens/Normalização/Normalização_x_desempenho.png",
+    "Imagens/Normalização",
+    "Imagens/Normalização/Modelagem_e_Normalização.png",
     "Dependência Funcional.md",
+    "Pasted image 20240415110309.png",
+    "Imagens/Dependência Funcional",
+    "Imagens/Dependência Funcional/Dependencias_funcionais.png",
+    "Normalização.md",
+    "Princípios de Relacionamentos.md",
     "Princípios de Cardinalidade.md",
+    "Introdução.md",
     "Imagens/Relacionamentos/Relacionamento_ternario_n_n_n.png",
     "Imagens/Relacionamentos/Relacionamento_ternario_1_1_n.png",
     "Imagens/Relacionamentos/Relacionamento_ternario_1_1_1.png",
@@ -162,10 +170,6 @@
     "Imagens/Cardinalidades/Notacao_de_Engenharia_de_Informacao.png",
     "Imagens/Relacionamentos",
     "Imagens/Relacionamentos/Relacionamento_Generalizacao.png",
-    "Imagens/Relacionamentos/Auto_relacionamento_1_1_e_1_n.png",
-    "Imagens/Relacionamentos/Auto_relacionamento_n_n.png",
-    "Imagens/Relacionamentos/Relacionamento_Entidade_Fraca.png",
-    "Pasted image 20240412122219.png",
     "Imagens",
     "Sem título.md",
     "Modelo Lógico.md"
