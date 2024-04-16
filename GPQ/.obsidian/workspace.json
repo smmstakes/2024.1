@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MRSP - Inovação e Melhoria.md",
+                "file": "Engenharia de Produto.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MRSP - Inovação e Melhoria.md",
+                "file": "Engenharia de Produto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MRSP - Inovação e Melhoria.md",
+                "file": "Engenharia de Produto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MRSP - Inovação e Melhoria.md"
+                "file": "Engenharia de Produto.md"
               }
             }
           }
@@ -146,11 +146,16 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1f60828d6f2aad56",
+  "active": "5ac291baf36bafb2",
   "lastOpenFiles": [
-    "Engenharia de Produto.md",
-    "MRSP - Inovação e Melhoria.md",
+    "Imagens/Engenharia de Produto/Gestao Stage-Gates.png",
+    "Imagens/Engenharia de Produto/Engenharia Simultanea.png",
+    "Imagens/Engenharia de Produto",
+    "Imagens",
+    "Imagens/Engenharia de Produto/Etapas de um PDP.png",
     "MRSP - Design e Gerenciamento Organizacional.md",
+    "MRSP - Inovação e Melhoria.md",
+    "Engenharia de Produto.md",
     "MRSP - Entrega.md",
     "Introdução.md",
     "MRSP - Fornecimento.md",
