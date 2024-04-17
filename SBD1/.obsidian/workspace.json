@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "38359620fac1ae16",
+        "id": "ea447436f2850da0",
         "type": "tabs",
         "children": [
           {
-            "id": "89d9cdae567b4f2e",
+            "id": "e4375f9f06040293",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "85856fc620f2425b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introdução a Linguagem SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3138676aa046f3e8",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Normalização.md",
+                "file": "Introdução a Linguagem SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Normalização.md",
+                "file": "Introdução a Linguagem SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Normalização.md"
+                "file": "Introdução a Linguagem SQL.md"
               }
             }
           }
@@ -147,30 +161,30 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "42ee74fa455fffff",
+  "active": "85856fc620f2425b",
   "lastOpenFiles": [
-    "Imagens/Normalização/FNBC_exemplo01.png",
-    "Imagens/Normalização/2FN_exemplo_solucao.png",
-    "Imagens/Normalização/1FN_exemplo_solucao3.png",
     "Normalização.md",
-    "Imagens/Normalização/2FN_tabela_exemplo.png",
-    "Imagens/Normalização/1FN_exemplo_solucao_2.png",
-    "Imagens/Normalização/1FN_exemplo_solucao_1.png",
-    "Imagens/Dependência Funcional/Dependencias_funcionais.png",
-    "Pasted image 20240416103944.png",
-    "Pasted image 20240416103452.png",
-    "Dependência Funcional.md",
-    "Imagens/Normalização/3FN_exemplo_solucao.png",
-    "Imagens/Normalização/3FN_tabela_exemplo.png",
+    "Introdução a Linguagem SQL.md",
+    "Imagens/Normalização/FNBC_exemplo01_solucao.png",
+    "Introdução.md",
     "Modelo Conceitual.md",
+    "Princípios de Cardinalidade.md",
+    "Princípios de Relacionamentos.md",
+    "Imagens/Relacionamentos/Relacionamento_ternario_n_n_n.png",
+    "Imagens/Relacionamentos/Relacionamento_ternario_1_n_n.png",
+    "Imagens/Relacionamentos/Relacionamento_ternario_1_1_n.png",
+    "Imagens/Relacionamentos/Relacionamento_ternario_1_1_1.png",
+    "Imagens/Relacionamentos/Relacionamento_n_n.png",
+    "Imagens/Relacionamentos/Relacionamento_n_1.png",
+    "Imagens/Relacionamentos/Relacionamento_Generalizacao.png",
+    "Imagens/Relacionamentos/Relacionamento_Entidade_Fraca.png",
+    "Imagens/Relacionamentos/Relacionamento_1_1.png",
+    "Imagens/Relacionamentos",
     "Imagens/Normalização",
     "Imagens/Dependência Funcional",
-    "Princípios de Relacionamentos.md",
-    "Princípios de Cardinalidade.md",
-    "Introdução.md",
     "Imagens/Cardinalidades",
-    "Imagens/Relacionamentos",
     "Imagens",
+    "Dependência Funcional.md",
     "Sem título.md",
     "Modelo Lógico.md"
   ]

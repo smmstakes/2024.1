@@ -1,6 +1,6 @@
 ###### Aula 05 - 16.04
 **Aula Anterior:** [[Dependência Funcional]] (Aula 04 - 09.04)
-**Próxima Aula:** [[]] (Aula 06 - 18.04)
+**Próxima Aula:** [[Introdução a Linguagem SQL]] (Aula 06 - 18.04)
 
 ---
 # Normalização
@@ -65,6 +65,26 @@ Sua versão na 2FN é:
 ## Forma Normal de Boyce-Codd (FNBC)
 Considerando a seguinte tabela na 3FN.
 ![[FNBC_exemplo01.png]]
+
+>**IMPORTANTE:** Nota-se algumas *anomalias* na tabela, mesmo que esteja na 3FN, da pra perceber que a agência é repetida para o mesmo gerente
+>**NOTA:** ***Chaves Candidatas*** são atributos que poderiam ser chaves primárias da tabela. 
+
+Nessa tabela, temos as seguintes chaves candidatas: 
+- {Cliente, Agencia}
+- {Cliente, Gerente}
+- {Cliente, Gerente, Agencia}
+E as seguintes dependências:
+- Gerente -> Agencia 
+	- Gerente não é chave candidata, logo quebra a FNBC
+- {Cliente, Agencia} -> Gerente
+- {Cliente, Gerente} -> Agencia
+
+##### Regra da FNBC
+Uma tabela **não** estará na FNBC se **existir alguma dependência funcional** *X* -> Y, tal que *X* **não é uma chave candidata**.
+
+###### Solução
+![[FNBC_exemplo01_solucao.png]]
+
 
 ---
 **tags:** #FN #BoyceCodd #Codd #normalização #desempenho 
