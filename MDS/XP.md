@@ -1,6 +1,6 @@
 ###### Aula 06 - 03.04
 **Aula Anterior:** [[Scrum]] (Aula 05 - 01.04)
-**Próxima Aula:** [[]] (Aula 07 - 08.04)
+**Próxima Aula:** [[Qualidade de Software]] (Aula 07 - 15.04)
 
 ---
 # XP
