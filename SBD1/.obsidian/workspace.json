@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Normalização.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85856fc620f2425b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Introdução a Linguagem SQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3138676aa046f3e8",
@@ -161,10 +147,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "85856fc620f2425b",
+  "active": "42ee74fa455fffff",
   "lastOpenFiles": [
+    "Imagens/Introdução a Linguagem SQL",
+    "Imagens/Introdução a Linguagem SQL/Exemplo_questao6.png",
     "Normalização.md",
     "Introdução a Linguagem SQL.md",
+    "Pasted image 20240417092657.png",
     "Imagens/Normalização/FNBC_exemplo01_solucao.png",
     "Introdução.md",
     "Modelo Conceitual.md",
@@ -177,8 +166,6 @@
     "Imagens/Relacionamentos/Relacionamento_n_n.png",
     "Imagens/Relacionamentos/Relacionamento_n_1.png",
     "Imagens/Relacionamentos/Relacionamento_Generalizacao.png",
-    "Imagens/Relacionamentos/Relacionamento_Entidade_Fraca.png",
-    "Imagens/Relacionamentos/Relacionamento_1_1.png",
     "Imagens/Relacionamentos",
     "Imagens/Normalização",
     "Imagens/Dependência Funcional",
