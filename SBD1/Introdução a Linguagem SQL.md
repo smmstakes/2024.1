@@ -1,6 +1,6 @@
 ###### Aula 06 - 18.04
 **Aula Anterior:** [[Normalização]] (Aula 05 - 16.04)
-**Próxima Aula:** [[]] ()
+**Próxima Aula:** [[Algebra Relacional]] (Aula 07 - 07.05)
 **Site:** https://sqliteonline.com/
 
 ---
@@ -197,5 +197,5 @@ INSERT INTO Monitoria VALUES
 ```
 
 ---
-**tags:** #SQL #SQLite 
+**tags:** #SQL #SQLite #relacional #code 
 **Home:** [[#Aula 06 - 18.04]]

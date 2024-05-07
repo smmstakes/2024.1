@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e25d0876082aaefb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra Relacional.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introdução a Linguagem SQL.md",
+                "file": "Algebra Relacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introdução a Linguagem SQL.md",
+                "file": "Algebra Relacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introdução a Linguagem SQL.md"
+                "file": "Algebra Relacional.md"
               }
             }
           }
@@ -147,18 +160,18 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "42ee74fa455fffff",
+  "active": "e25d0876082aaefb",
   "lastOpenFiles": [
-    "Imagens/Introdução a Linguagem SQL",
-    "Imagens/Introdução a Linguagem SQL/Exemplo_questao6.png",
-    "Normalização.md",
     "Introdução a Linguagem SQL.md",
-    "Pasted image 20240417092657.png",
-    "Imagens/Normalização/FNBC_exemplo01_solucao.png",
-    "Introdução.md",
-    "Modelo Conceitual.md",
-    "Princípios de Cardinalidade.md",
+    "Algebra Relacional.md",
     "Princípios de Relacionamentos.md",
+    "Princípios de Cardinalidade.md",
+    "Introdução.md",
+    "Normalização.md",
+    "Imagens/Introdução a Linguagem SQL/Exemplo_questao6.png",
+    "Imagens/Introdução a Linguagem SQL",
+    "Imagens/Normalização/FNBC_exemplo01_solucao.png",
+    "Modelo Conceitual.md",
     "Imagens/Relacionamentos/Relacionamento_ternario_n_n_n.png",
     "Imagens/Relacionamentos/Relacionamento_ternario_1_n_n.png",
     "Imagens/Relacionamentos/Relacionamento_ternario_1_1_n.png",
@@ -166,6 +179,7 @@
     "Imagens/Relacionamentos/Relacionamento_n_n.png",
     "Imagens/Relacionamentos/Relacionamento_n_1.png",
     "Imagens/Relacionamentos/Relacionamento_Generalizacao.png",
+    "Imagens/Relacionamentos/Relacionamento_Entidade_Fraca.png",
     "Imagens/Relacionamentos",
     "Imagens/Normalização",
     "Imagens/Dependência Funcional",
