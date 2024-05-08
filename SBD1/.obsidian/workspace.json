@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ea447436f2850da0",
+        "id": "ac9f4e96cfec1b53",
         "type": "tabs",
         "children": [
           {
-            "id": "e4375f9f06040293",
+            "id": "06dc8875f8c7474c",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introdução a Linguagem SQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e25d0876082aaefb",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Algebra Relacional.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3138676aa046f3e8",
@@ -161,10 +149,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e25d0876082aaefb",
+  "active": "42ee74fa455fffff",
   "lastOpenFiles": [
+    "Imagens/Algebra Relacional/Produto_Cartesiano.png",
+    "Imagens/Algebra Relacional/Diferenca.png",
+    "Imagens/Algebra Relacional/Intercecao.png",
+    "Imagens/Algebra Relacional/Intercecao.md",
     "Algebra Relacional.md",
+    "Imagens/Algebra Relacional/Uniao.png",
+    "Imagens/Algebra Relacional",
     "Introdução a Linguagem SQL.md",
+    "Divisão.md",
     "Princípios de Relacionamentos.md",
     "Princípios de Cardinalidade.md",
     "Introdução.md",
@@ -178,9 +173,6 @@
     "Imagens/Relacionamentos/Relacionamento_ternario_1_1_n.png",
     "Imagens/Relacionamentos/Relacionamento_ternario_1_1_1.png",
     "Imagens/Relacionamentos/Relacionamento_n_n.png",
-    "Imagens/Relacionamentos/Relacionamento_n_1.png",
-    "Imagens/Relacionamentos/Relacionamento_Generalizacao.png",
-    "Imagens/Relacionamentos/Relacionamento_Entidade_Fraca.png",
     "Imagens/Relacionamentos",
     "Imagens/Normalização",
     "Imagens/Dependência Funcional",
