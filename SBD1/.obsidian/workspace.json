@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3138676aa046f3e8",
@@ -162,8 +163,8 @@
   },
   "active": "e25d0876082aaefb",
   "lastOpenFiles": [
-    "Introdução a Linguagem SQL.md",
     "Algebra Relacional.md",
+    "Introdução a Linguagem SQL.md",
     "Princípios de Relacionamentos.md",
     "Princípios de Cardinalidade.md",
     "Introdução.md",
