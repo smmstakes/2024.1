@@ -40,17 +40,49 @@ Retorna uma tabela com os valores da *Tabela 1* que **não** estão presentes na
 ![[Diferenca.png]]
 
 #### Produto Cartesiano
-Realiza a combinação de **todas as linhas da Tabela 2** com as linhas da **Tabela 1**.
+Realiza a combinação de **todas as linhas da Tabela 2** com as linhas da **Tabela 1** - **Operação Binária**.
 
 ![[Produto_Cartesiano.png]]
+
 #### Seleção
+**Seleciona as linhas** de uma relação - **Operação Unária**
+$\sigma <condicao de selecao> <(relacao)>$
+
+- **Relação:** *Nome da Tabela* que se deseja recuperar dados.
+- **Condição de Seleção:** *Expressão booleana* que envolve literais e valores de atributos da tabela
+
+![[Selecao.png]]
+
 #### Projeção
+**Projeta a coluna** de uma relação - **Operação Unária**
+$\pi <At1, At2,...> <(relacao)>$
+
+- **Atributo (At):** atributos que se deseja recuperar 
+![[Projecao.png]]
+
 #### Inner Join
+É um **produto cartesiano filtrado**, também conhecido como **junção interna**. Ele seleciona os dados que são comuns nas duas tabelas
+
+![[Inner_Join_1.png]]
+
+##### Exemplo
+![[Inner_Join_2.png]]
+
 #### Outer Join
+Parecido com o *Inner Join*, porém utilizado para manter **todas as tuplas de uma tabela** e realizar a junção. Também conhecido como **Junção Externa**.
+![[Outer_Join_Ex.png]]
 ##### Left Outer Join
+![[Left_Outer_Join.png]]
+
 ##### Right Outer Join
+![[Right_Outer_Join.png]]
+
 ##### Full Outer Join
+![[Full_Outer_Join.png]]
+
 #### Divisão
+
+
 #### Renomeação
 
 ---
