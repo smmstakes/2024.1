@@ -81,9 +81,12 @@ Parecido com o *Inner Join*, porém utilizado para manter **todas as tuplas de u
 ![[Full_Outer_Join.png]]
 
 #### Divisão
+Retorna as tuplas de um **atributo X**, em um **par <X,Y>** da primeira relação que está associado com todas as tuplas de um **atributo Y** da segunda relação.
 
+![[Divisao.png]]
 
 #### Renomeação
+![[Renomeacao.png]]
 
 ---
 **tags:** #relacional #algebra
