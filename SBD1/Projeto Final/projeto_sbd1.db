@@ -1,0 +1,81 @@
+CREATE TABLE Banca (
+    cnpj TEXT,
+    nome_banca TEXT,
+    regiao TEXT,
+    PRIMARY KEY (cnpj) 
+);
+
+CREATE TABLE Produto (
+    produto_id TEXT,
+    nome_produto TEXT,
+    fabricante TEXT,
+    PRIMARY KEY (produto_id)
+);
+
+CREATE TABLE Policial (
+    policial_id TEXT,
+    nome_policial TEXT,
+    patente TEXT,
+    regiao_patrulha TEXT,
+    PRIMARY KEY (policial_id)
+);
+
+CREATE TABLE Pessoa (
+    cpf TEXT,
+    nome TEXT,
+    nome_social TEXT,
+    idade INTEGER,
+    sexo TEXT,
+    genero TEXT,
+    regiao TEXT,
+    PRIMARY KEY (cpf)
+);
+
+CREATE TABLE Compra (
+    compra_id TEXT,
+    cpf_comprador TEXT,
+    nome_produto TEXT,
+    data_compra TEXT,
+);
+
+CREATE TABLE Banca_Has_Produto (
+    cnpj TEXT,
+    produto_id TEXT,
+    PRIMARY KEY (cnpj, produto_id),
+    FOREIGN KEY (cnpj) REFERENCES Banca(cnpj),
+    FOREIGN KEY (produto_id) REFERENCES Produto(produto_id)
+);
+
+CREATE TABLE Caso_de_Pessoas_Desaparecidas (
+    caso_id TEXT,
+    policial_id TEXT,
+    cpf_desaparecido TEXT,
+    data_desaparecimento TEXT,
+    ultima_regiao TEXT,
+    descricao TEXT,
+    PRIMARY KEY (caso_id),
+    FOREIGN KEY (policial_id) REFERENCES Policial(policial_id),
+    FOREIGN KEY (cpf_desaparecido) REFERENCES Pessoa(cpf)
+);
+
+
+INSERT INTO Banca (cnpj, nome_banca, regiao) VALUES 
+("B1", "Banca do Zé", "Brasília");
+
+INSERT INTO Produto (produto_id, nome_produto, fabricante) VALUES 
+("Prod1", "Pão", "Pãodaria");
+
+INSERT INTO Policial (policial_id, nome_policial, patente, regiao_patrulha) VALUES 
+("Pol1", "João", "Soldado", "Brasília");
+
+INSERT INTO Pessoa (cpf, nome, nome_social, idade, sexo, genero, regiao) VALUES 
+("XX.001", "Maria", "Maria", 20, "F", "Mulher Cis", "Brasília");
+
+INSERT INTO Compra (compra_id, cpf_comprador, nome_produto, data_compra) VALUES 
+("C1", "XX.001", "Pão", "2021-01-01");
+
+INSERT INTO Banca_Has_Produto (cnpj, produto_id) VALUES 
+("B1", "Prod1");
+
+INSERT INTO Caso_de_Pessoas_Desaparecidas (caso_id, policial_id, cpf_desaparecido, data_desaparecimento, ultima_regiao, descricao) VALUES 
+("Caso1", "Pol1", "XX.001", "2021-01-01", "Brasília", "Maria desapareceu após ir comprar pão");

@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "7281e0f6cceaa70e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra Relacional.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +162,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "42ee74fa455fffff",
+  "active": "7281e0f6cceaa70e",
   "lastOpenFiles": [
     "Imagens/Algebra Relacional/Renomeacao.png",
     "Imagens/Algebra Relacional/Divisao.png",
