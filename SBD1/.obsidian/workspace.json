@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra Relacional.md",
+                "file": "Princípios de Cardinalidade.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra Relacional.md",
+                "file": "Princípios de Cardinalidade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra Relacional.md",
+                "file": "Princípios de Cardinalidade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra Relacional.md"
+                "file": "Princípios de Cardinalidade.md"
               }
             }
           }
@@ -164,18 +164,19 @@
   },
   "active": "7281e0f6cceaa70e",
   "lastOpenFiles": [
+    "Normalização.md",
+    "Modelo Conceitual.md",
+    "Algebra Relacional.md",
     "Imagens/Algebra Relacional/Renomeacao.png",
     "Imagens/Algebra Relacional/Divisao.png",
     "Imagens/Algebra Relacional/Right_Outer_Join.png",
     "Imagens/Algebra Relacional/Outer_Join_Ex.png",
-    "Algebra Relacional.md",
     "Imagens/Algebra Relacional/Left_Outer_Join.png",
     "Imagens/Algebra Relacional/Left_Outer_Join.png",
     "Imagens/Algebra Relacional/Full_Outer_Join.png",
     "Imagens/Algebra Relacional/Inner_Join_2.png",
     "Imagens/Algebra Relacional/Inner_Join_1.png",
     "Pasted image 20240510133500.png",
-    "Imagens/Algebra Relacional/Projecao.png",
     "Imagens/Algebra Relacional/Intercecao.md",
     "Imagens/Algebra Relacional",
     "Introdução a Linguagem SQL.md",
@@ -183,9 +184,7 @@
     "Princípios de Relacionamentos.md",
     "Princípios de Cardinalidade.md",
     "Introdução.md",
-    "Normalização.md",
     "Imagens/Introdução a Linguagem SQL",
-    "Modelo Conceitual.md",
     "Imagens/Relacionamentos",
     "Imagens/Normalização",
     "Imagens/Dependência Funcional",
