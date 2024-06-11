@@ -1,82 +1,87 @@
 CREATE TABLE Banca (
-    cnpj TEXT,
+    id_banca TEXT,
     nome_banca TEXT,
+ -- cpf_dono TEXT,
     regiao TEXT,
-    PRIMARY KEY (cnpj) 
+    PRIMARY KEY (id_banca) 
 );
 
 CREATE TABLE Produto (
-    produto_id TEXT,
+    id_produto TEXT,
     nome_produto TEXT,
     fabricante TEXT,
-    PRIMARY KEY (produto_id)
+  	preco REAL,
+    PRIMARY KEY (id_produto)
 );
 
 CREATE TABLE Policial (
-    policial_id TEXT,
+    id_policial TEXT,
     nome_policial TEXT,
     patente TEXT,
     regiao_patrulha TEXT,
-    PRIMARY KEY (policial_id)
+    PRIMARY KEY (id_policial)
 );
 
-CREATE TABLE Pessoa (
+CREATE TABLE Civil (
     cpf TEXT,
     nome TEXT,
-    nome_social TEXT,
     idade INTEGER,
     sexo TEXT,
-    genero TEXT,
     regiao TEXT,
     PRIMARY KEY (cpf)
 );
 
 CREATE TABLE Compra (
-    compra_id TEXT,
+    id_compra TEXT,
     cpf_comprador TEXT,
+  	nome_estabelecimento TEXT,
     nome_produto TEXT,
-    data_compra TEXT,
-  	PRIMARY KEY (compra_id),
-  	FOREIGN KEY (cpf_comprador) REFERENCES Pessoa(cpf)
+    dia_compra TEXT,
+  	mes_compra TEXT,
+  	ano_compra TEXT,
+  	PRIMARY KEY (id_compra),
+  	FOREIGN KEY (cpf_comprador) REFERENCES Civil(cpf)
 );
 
-CREATE TABLE Banca_Has_Produto (
-    cnpj TEXT,
-    produto_id TEXT,
-    PRIMARY KEY (cnpj, produto_id),
-    FOREIGN KEY (cnpj) REFERENCES Banca(cnpj),
-    FOREIGN KEY (produto_id) REFERENCES Produto(produto_id)
+CREATE TABLE BancaHasProduto (
+    id_banca TEXT,
+    id_produto TEXT,
+    PRIMARY KEY (id_banca, id_produto),
+    FOREIGN KEY (id_banca) REFERENCES Banca(id_banca),
+    FOREIGN KEY (id_produto) REFERENCES Produto(id_produto)
 );
 
-CREATE TABLE Caso_de_Pessoas_Desaparecidas (
-    caso_id TEXT,
-    policial_id TEXT,
-    cpf_desaparecido TEXT,
-    data_desaparecimento TEXT,
+CREATE TABLE CasoPessoaDesaparecida (
+    id_caso TEXT,
+    id_policial TEXT,
+   cpf_desaparecido TEXT,
+    dia_compra TEXT,
+  	mes_compra TEXT,
+  	ano_compra TEXT,
     ultima_regiao TEXT,
     descricao TEXT,
-    PRIMARY KEY (caso_id),
-    FOREIGN KEY (policial_id) REFERENCES Policial(policial_id),
-    FOREIGN KEY (cpf_desaparecido) REFERENCES Pessoa(cpf)
+    PRIMARY KEY (id_caso),
+    FOREIGN KEY (id_policial) REFERENCES Policial(id_policial),
+    FOREIGN KEY (cpf_desaparecido) REFERENCES Civil(cpf)
 );
 
-INSERT INTO Banca (cnpj, nome_banca, regiao) VALUES 
+INSERT INTO Banca (id_banca, nome_banca, regiao) VALUES 
 ("B1", "Banca do Zé", "Brasília");
 
-INSERT INTO Produto (produto_id, nome_produto, fabricante) VALUES 
-("Prod1", "Pão", "Pãodaria");
+INSERT INTO Produto (id_produto, nome_produto, fabricante, preco) VALUES 
+("P1", "Pão", "Pãodaria", 1.00);
 
-INSERT INTO Policial (policial_id, nome_policial, patente, regiao_patrulha) VALUES 
-("Pol1", "João", "Soldado", "Brasília");
+INSERT INTO Policial (id_policial, nome_policial, patente, regiao_patrulha) VALUES 
+("PL1", "João", "Soldado", "Brasília");
 
-INSERT INTO Pessoa (cpf, nome, nome_social, idade, sexo, genero, regiao) VALUES 
-("XX.001", "Maria", "Maria", 20, "F", "Mulher Cis", "Brasília");
+INSERT INTO Civil (cpf, nome, idade, sexo, regiao) VALUES 
+("XX.001", "Maria", 20, "F", "Brasília");
 
-INSERT INTO Compra (compra_id, cpf_comprador, nome_produto, data_compra) VALUES 
-("C1", "XX.001", "Pão", "2021-01-01");
+INSERT INTO Compra (id_compra, cpf_comprador, nome_estabelecimento, nome_produto, dia_compra, mes_compra, ano_compra) VALUES 
+("C1", "XX.001", "Banca do Zé", "Pão", "01", "01", "2021");
 
-INSERT INTO Banca_Has_Produto (cnpj, produto_id) VALUES 
-("B1", "Prod1");
+INSERT INTO BancaHasProduto (id_banca, id_produto) VALUES 
+("B1", "P1");
 
-INSERT INTO Caso_de_Pessoas_Desaparecidas (caso_id, policial_id, cpf_desaparecido, data_desaparecimento, ultima_regiao, descricao) VALUES 
-("Caso1", "Pol1", "XX.001", "2021-01-01", "Brasília", "Maria desapareceu após ir comprar pão");
+INSERT INTO CasoPessoaDesaparecida (id_caso, id_policial, cpf_desaparecido, dia_compra, mes_compra, ano_compra, ultima_regiao, descricao) VALUES 
+("CPD1", "PL1", "XX.001", "01", "01", "2021", "Brasília", "Maria desapareceu após ir comprar pão");
