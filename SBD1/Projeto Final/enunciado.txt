@@ -1,0 +1,11 @@
+Nossa lembrança sobre nosso pai é muito vaga, o que sabemos é que ele era um homem um tanto quanto peculiar, pois ele gostava de pesquisar sobre teorias da conspiração e fumar enquanto realizava essas pesquisas, e por conta dessa crença dele ele nos abandonou e sumiu sem deixar rastros. Anos depois, entramos para a polícia, e obtivemos acesso aos registros, e com nossa habilidade em SQL precisamos achar informações sobre nosso pai, mais especificamente qual é o seu nome.
+
+Nossa mãe e alguns outros policiais nos deu algumas dicas para encontrar o nome do nosso pai, e essas dicas são:
+
+- Dica 1, ele fumava muito.
+- Dica 2, nosso pai sumiu em 2012.
+- Dica 3, morávamos no Recanto das Emas.
+- Dica 4, ele era fanático pelo sabor artificial de melancia.
+- Dica 5, as bancas podem ser um bom lugar para começar a investigar.
+- Dica 6, ele sempre comprava as coisas em uma banca específica da nossa região.
+- Dica 7, os caso de pessoas desaparecidas eram atribuídos a policiais da região de onde a pessoa morava.
