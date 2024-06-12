@@ -1,0 +1,46 @@
+caso_id,policial_id,cpf_desaparecido,dia,mes,ano,ultimo_local,descricao
+CPD1,PL23,XX.387,15,6,2019,Núcleo Bandeirante,Alexandre encontrado após 3 dias
+CPD2,PL12,XX.782,3,2,2018,Taguatinga,Bianca sumiu, nunca encontrada
+CPD3,PL34,XX.195,22,9,2020,Ceilândia,Carlos encontrado 1 semana depois
+CPD4,PL47,XX.639,8,11,2017,Samambaia,Débora sumiu, nunca encontrada
+CPD5,PL29,XX.512,14,4,2016,Paranoá,Eduardo encontrado após 2 dias
+CPD6,PL15,XX.298,6,10,2019,Recanto das Emas,Fernanda encontrada no local
+CPD7,PL19,XX.754,28,8,2015,Ceilândia,Gustavo encontrado 1 mês depois
+CPD8,PL38,XX.843,12,12,2018,Planaltina,Heloísa encontrada no mesmo local
+CPD9,PL3,XX.479,9,5,2017,Águas Claras,Igor encontrado no parque
+CPD10,PL22,XX.627,20,7,2019,Ceilândia,Juliana sumiu, nunca encontrada
+CPD11,PL41,XX.246,11,3,2016,Guará,Kleber encontrado no campo
+CPD12,PL25,XX.341,7,2,2020,Riacho Fundo,Lúcia sumiu, nunca encontrada
+CPD13,PL14,XX.987,13,8,2015,Águas Claras,Marcelo encontrado 5 dias depois
+CPD14,PL10,XX.452,25,9,2018,Paranoá,Nina sumiu, nunca encontrada
+CPD15,PL27,XX.763,5,1,2017,Taguatinga,Omar encontrado na manhã seguinte
+CPD16,PL36,XX.554,19,4,2016,Planaltina,Patrícia encontrada após 2 dias
+CPD17,PL50,XX.916,17,11,2019,Santa Maria,Quely sumiu, nunca encontrada
+CPD18,PL31,XX.384,21,6,2017,Núcleo Bandeirante,Renato encontrado 3 dias depois
+CPD19,PL43,XX.142,4,10,2015,Ceilândia,Silvana encontrada 1 semana depois
+CPD20,PL5,XX.731,10,12,2018,Samambaia,Thiago encontrado no evento
+CPD21,PL7,XX.378,2,3,2020,Águas Claras,Ursula encontrada no local
+CPD22,PL13,XX.441,29,2,2012,Recanto das Emas,Encontrado em bunker
+CPD23,PL28,XX.316,11,5,2017,Riacho Fundo,Wanda sumiu, nunca encontrada
+CPD24,PL9,XX.789,9,2,2019,Taguatinga,Xavier encontrado no evento
+CPD25,PL4,XX.961,24,8,2018,Planaltina,Yasmin encontrada no local
+CPD26,PL37,XX.485,13,7,2020,Ceilândia,Zé sumiu, nunca encontrado
+CPD27,PL30,XX.248,7,4,2016,Núcleo Bandeirante,Adriana encontrada no local
+CPD28,PL2,XX.134,20,3,2018,Águas Claras,Bruno encontrado no encontro
+CPD29,PL13,XX.549,2,11,2015,Samambaia,Carla encontrada na manhã seguinte
+CPD30,PL6,XX.765,15,8,2020,Riacho Fundo,Diogo encontrado no restaurante
+CPD31,PL26,XX.282,29,4,2017,Taguatinga,Eliana sumiu, nunca encontrada
+CPD32,PL32,XX.396,11,1,2019,Paranoá,Fausto encontrado na tarde seguinte
+CPD33,PL11,XX.853,25,6,2018,Planaltina,Giovana sumiu, nunca encontrada
+CPD34,PL40,XX.451,18,12,2015,Ceilândia,Hélio encontrado após 2 dias
+CPD35,PL17,XX.512,8,2,2020,Núcleo Bandeirante,Iara encontrada após 1 dia
+CPD36,PL44,XX.327,6,10,2019,Guará,Julio sumiu, nunca encontrado
+CPD37,PL33,XX.684,12,4,2018,Taguatinga,Karine encontrada no local
+CPD38,PL21,XX.928,9,7,2017,Samambaia,Luiz sumiu, nunca encontrado
+CPD39,PL39,XX.474,17,5,2020,Águas Claras,Mara encontrada na manhã seguinte
+CPD40,PL46,XX.159,5,8,2016,Riacho Fundo,Noemi sumiu, nunca encontrada
+CPD41,PL20,XX.731,11,11,2019,Paranoá,Osmar encontrado após 1 semana
+CPD42,PL16,XX.296,3,5,2018,Planaltina,Paula encontrada no mercado
+CPD43,PL24,XX.638,17,3,2020,Ceilândia,Quintino sumiu, nunca encontrado
+CPD44,PL8,XX.851,2,9,2015,Taguatinga,Rita encontrada no evento
+CPD45,PL35,XX.432,25,12,2017,Samambaia,Samuel sumiu, nunca encontrado
